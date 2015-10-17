@@ -3,8 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F9795A23-D593-4EFA-A4F1-E11CDAEB4633}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApp", "WebApp", "{5985F6C1-4F5B-4419-9606-879CAB37EEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Common", "ForumSystem.Common\ForumSystem.Common.csproj", "{E4A3850C-0CBF-4967-A405-DA67404B04BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Data.Models", "Data\ForumSystem.Data.Models\ForumSystem.Data.Models.csproj", "{E5AB755E-31A4-48C1-98D5-DC2C2B86B08B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.Data", "Data\ForumSystem.Data\ForumSystem.Data.csproj", "{53693B12-1EA3-40D2-8DA2-FC0549544AA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D2A674F8-BF68-45A7-944B-39BCBF456646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumSystem.WebApp", "Web\ForumSystem.WebApp\ForumSystem.WebApp.csproj", "{1296F4B1-0102-44B9-B0DB-671A010BEA4A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4A3850C-0CBF-4967-A405-DA67404B04BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A3850C-0CBF-4967-A405-DA67404B04BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A3850C-0CBF-4967-A405-DA67404B04BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A3850C-0CBF-4967-A405-DA67404B04BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5AB755E-31A4-48C1-98D5-DC2C2B86B08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5AB755E-31A4-48C1-98D5-DC2C2B86B08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5AB755E-31A4-48C1-98D5-DC2C2B86B08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5AB755E-31A4-48C1-98D5-DC2C2B86B08B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53693B12-1EA3-40D2-8DA2-FC0549544AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53693B12-1EA3-40D2-8DA2-FC0549544AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53693B12-1EA3-40D2-8DA2-FC0549544AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53693B12-1EA3-40D2-8DA2-FC0549544AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1296F4B1-0102-44B9-B0DB-671A010BEA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1296F4B1-0102-44B9-B0DB-671A010BEA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1296F4B1-0102-44B9-B0DB-671A010BEA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1296F4B1-0102-44B9-B0DB-671A010BEA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5AB755E-31A4-48C1-98D5-DC2C2B86B08B} = {F9795A23-D593-4EFA-A4F1-E11CDAEB4633}
+		{53693B12-1EA3-40D2-8DA2-FC0549544AA1} = {F9795A23-D593-4EFA-A4F1-E11CDAEB4633}
+		{1296F4B1-0102-44B9-B0DB-671A010BEA4A} = {5985F6C1-4F5B-4419-9606-879CAB37EEC0}
 	EndGlobalSection
 EndGlobal
