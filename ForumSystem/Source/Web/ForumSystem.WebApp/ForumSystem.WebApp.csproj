@@ -255,6 +255,10 @@
     <Content Include="Scripts\jquery-2.1.4.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Data\ForumSystem.Data.Common\ForumSystem.Data.Common.csproj">
+      <Project>{eddc5711-40e0-4656-b278-70eaabf04303}</Project>
+      <Name>ForumSystem.Data.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Data\ForumSystem.Data.Models\ForumSystem.Data.Models.csproj">
       <Project>{e5ab755e-31a4-48c1-98d5-dc2c2b86b08b}</Project>
       <Name>ForumSystem.Data.Models</Name>
